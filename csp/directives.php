@@ -9,7 +9,7 @@
 $directives = array(
     'default-src' => array(
         "'self'",
-        //"googleads.g.doubleclick.net" -->google adsense
+        "googleads.g.doubleclick.net"
     ),
     'script-src' => array(
         "'self'",
@@ -17,10 +17,10 @@ $directives = array(
         "https://*.googleapis.com",
         "http://html5shiv.googlecode.com",
         "data: ",
-        //"pagead2.googlesyndication.com", -->google adsense
-        //"storage.googleapis.com", -->google adsense
-        //"googleads.g.doubleclick.net", -->google adsense
-        //"ajax.googleapis.com" -->google adsense
+        "pagead2.googlesyndication.com",
+        "storage.googleapis.com",
+        "googleads.g.doubleclick.net",
+        "ajax.googleapis.com"
     ),
     'style-src' => array(
         "'self'",
@@ -32,8 +32,8 @@ $directives = array(
         "'self'",
         "https://*.fbcdn.net",
         "https://upload.wikimedia.org",
-        //"storage.googleapis.com",  -->google adsense
-        //"pagead2.googlesyndication.com"  -->google adsense
+        "storage.googleapis.com",
+        "pagead2.googlesyndication.com"
     ),
     'frame-src' => array(
         "'self'"
