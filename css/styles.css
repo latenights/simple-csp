@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 400px;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+h2 {
+    margin: 0 0 20px;
+}
+.image {
+    margin: 0 0 50px;
+}
+.image img {
+    width: 100%;
+}
+.hidden-div {
+    display: none;
+}
