@@ -32,5 +32,10 @@ __Test__ - _won't output not allowed resources_
 
 __Live__ - _will output all resources, even not allowed._
 
+###Preview
+<pre>
+http://htmlpreview.github.io/?https://github.com/latenights/simple-csp/blob/master/index.php
+</pre>
+
 ***
 More info about Content Security Policy: https://content-security-policy.com/
