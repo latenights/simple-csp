@@ -19,6 +19,14 @@ require_once('csp/directives.php')
     <![endif]-->
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v2.8&appId=598834336810178";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <h1>This is heading</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit
     amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur
@@ -50,6 +58,11 @@ require_once('csp/directives.php')
         vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus
         mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie.
         Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+</div>
+<div class="fb-page" data-href="https://www.facebook.com/nudavmeste/" data-width="400" data-small-header="false"
+     data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+    <blockquote cite="https://www.facebook.com/nudavmeste/" class="fb-xfbml-parse-ignore"><a
+            href="https://www.facebook.com/nudavmeste/">nudavmeste.sk</a></blockquote>
 </div>
 <!-- JavaScript Includes -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>

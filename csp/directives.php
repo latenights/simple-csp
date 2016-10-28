@@ -16,6 +16,7 @@ $directives = array(
         "'unsafe-inline'",
         "https://*.googleapis.com",
         "http://html5shiv.googlecode.com",
+        "http://*.facebook.net",
         "data: ",
         //"pagead2.googlesyndication.com", -->google adsense
         //"storage.googleapis.com", -->google adsense
@@ -32,11 +33,13 @@ $directives = array(
         "'self'",
         "https://*.fbcdn.net",
         "https://upload.wikimedia.org",
+        "http://*.facebook.com"
         //"storage.googleapis.com",  -->google adsense
         //"pagead2.googlesyndication.com"  -->google adsense
     ),
     'frame-src' => array(
-        "'self'"
+        "'self'",
+        "http://*.facebook.com"
     ),
     'font-src' => array(
         "'self'",
